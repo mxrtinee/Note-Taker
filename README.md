@@ -2,6 +2,8 @@
 
 ## Description
 
+The Note Taker Application is a versatile and user-friendly digital tool designed to cater to the needs of small business owners, students, professionals, or anyone seeking an efficient way to organize their thoughts and tasks. This application seamlessly combines the convenience of note-taking with the power of digital technology, making it an essential companion for modern-day productivity.
+
 ## User Story
 
 ```
@@ -32,7 +34,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
   The following image shows the README application's appearance and functionality:
 
-  ![Note Taker](./assets/images/Note-Taker.png "Screenshot")
+  ![Note Taker](./public/assets/images/Note-Taker.png "Screenshot")
   
   ## Table of Contents
   - [Description](#description)
@@ -41,17 +43,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
   - [Screenshot](#screenshot)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
-  - [Tests](#tests)
   - [Questions](#questions)
 
    ## Installation
-  To install the required dependencies, run the following command: npm install
+  To install the required dependencies, run the following command: npm install express fs uuid
    ## Usage
-  To use this application, run the following command: node index.js<br>
-  Follow the prompts to generate your SVG logo.
-  ## Tests
-  To run the tests for this application, use the following command: npm test
+  To use this application, run the following command: node server.js<br>
 
   ## Questions
   If you have any questions or encounter any issues, please feel free to [open an issue](https://github.com/mxrtinee/Note-Taker/issues) or contact me directly:<br>
